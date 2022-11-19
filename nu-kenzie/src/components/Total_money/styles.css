@@ -1,0 +1,33 @@
+.container_full {
+    width: 90vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #e9ecef;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-top: 10px;
+    color: #212529;
+    font-family: "Nunito";
+    font-weight: 700;
+  }
+  
+  .container_full > p {
+    color: #fd377e;
+  }
+  
+  @media (min-width: 1024px) {
+    .container_full {
+      width: 64%;
+      margin-left: 90px;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .container_full {
+      width: 110%;
+      margin-left: 90px;
+    }
+  }
+  

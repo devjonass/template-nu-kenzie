@@ -1,0 +1,102 @@
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+
+.entrada {
+  width: 90%;
+  text-decoration: none;
+  background: #f8f9fa;
+  border-radius: 4px;
+  list-style: none;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.descricao {
+  margin-left: 15px;
+  color: #212529;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.type {
+  margin-left: 15px;
+  color: #5b6166;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.entrada > h6 {
+  color: #212529;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.entrada > button {
+  margin-right: 15px;
+  background: url("../../../../public/trash.png") no-repeat center 10px;
+  border: none;
+  border-radius: 2.46154px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  cursor: pointer;
+}
+.entrada > button:hover {
+  filter: brightness(0.1);
+}
+
+.saida {
+  width: 90%;
+  text-decoration: none;
+  background: #f8f9fa;
+  border-radius: 4px;
+  list-style: none;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.saida > h6 {
+  color: #212529;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.saida > button {
+  background: url("../../../../public/trash.png") no-repeat center 10px;
+  margin-right: 15px;
+  border: none;
+  border-radius: 2.46154px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  cursor: pointer;
+}
+.saida > button:hover {
+  filter: brightness(0.1);
+}
+.nomeDesc {
+  margin-bottom: 42px;
+}
+
+.btnExcluir {
+  background-color: #212529;
+  width: 3vw;
+  height: 5vh;
+}
